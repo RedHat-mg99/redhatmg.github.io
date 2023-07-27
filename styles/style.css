@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+}
+
+#summary {
+    color: red;
+}
+
+.description {
+    font-size: 16px;
+    
+}
+
+.parent-1 .box-1 {
+    height: 30%;
+    background-color: green;
+}
+
+.parent-2 {
+    /* Hãy thử comment height lại để thấy sự thay đổi */
+    height: 400px;
+    background-color: #ccc;
+}
+
+/* .box-2 có chiều cao, vì .parent-2 được set height */
+.parent-2 .box-2 {
+    /* 30% của 400px */
+    height: 30%;
+    background-color: orange;
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    border: 1px solid #b1154a;
+    display: block;
+    
+  }
