@@ -10,12 +10,12 @@ html {
 }
 
 header {
+  width: 100%;
   display: block;
   position: fixed;
 }
 
 .top-header {
-  width: 100%;
   height: 80px;
   background-color: black;
   padding-left: 1px;
